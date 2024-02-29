@@ -1,5 +1,6 @@
 # interaction_design
 1.target="_blank"可以在新的页面打开网页
+
 2.网页标题的改动
   <script>
         document.addEventListener("visibilitychange", function () {
