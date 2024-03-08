@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+</head>
+
+<body style="background-color: lavender;">
+    <h1 style="background-color: lightskyblue;">My First Website</h1>
+    <h2>I hope you like it here.</h2>
+    <h3>I hope you like it here.</h3>
+    <h4>I hope you like it here.</h4>
+    <h5>I hope you like it here.</h5>
+    <h6 style="border: 1px;border-style: solid;">I hope you like it here.</h6>
+    <p style="color: midnightblue;">This is my paragraph.</p>
+    <br>
+    <p>This is another paragraph.</p>
+    <b>Bold text</b>
+    <i>Italic text</i>
+    <u>Underlined text</u>
+    <em>Emphasized text</em>
+    <strong>Strong text</strong>
+    <sub>Subscript text</sub>
+    <sup>Superscript text</sup>
+    <img src="http://by.cuc.edu.cn/_upload/site/00/05/5/logo.png">
+    <!-- #TODO:跳转到新页面 -->
+    <a href="http://by.cuc.edu.cn/" target="_blank">This is the link to CUC's Website</a>
+    <img src="未标题-1.png" alt="1">
+    <!-- #TODO:jss标题 -->
+    <script>
+        document.addEventListener("visibilitychange", function () {
+            if (document.visibilityState === 'hidden') {
+                document.title = '你找不到我';
+            } else {
+                document.title = '啊哈被你找到了';
+            }
+        });
+    </script>
+
+</body>
+
+</html>
